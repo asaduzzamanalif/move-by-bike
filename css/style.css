@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/bg-3.png") no-repeat center center / cover;
+    height: 100vh;
+}
+
+
+h3 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 0 0 50px 0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+p {
+    color: #e2e2e2;
+    margin: 10px 0 0 0;
+}
+
+header {
+    margin: 0 0 50px 0;
+}
+
+footer p {
+    text-align: center;
+    color: #000;
+}
+
+.navbar {
+    background: none!important;
+}
+
+.logo img {
+    width: 40px;
+}
+.bike-img img {
+    width: 100%;
+}
+
+
+.color-green {
+    color: #00ae72;
+}
+
+.slide-area {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.main-content-area-side {
+    padding: 80px 0;
+}
+
+/* .main-content-area-side {
+    background: #000;
+} */
+
+.btn-btn {
+    border: none;
+    padding: 5px 20px;
+    background: #00ae72;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.padding-max {
+    padding: 20px 30px;
+}
+
+.slide-area::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 15%;
+    left: 0;
+    background: #000;
+    z-index: -1;
+}
+
+        /* 
+        =================================================
+                        Font Awsome
+        =================================================
+        */
+
+.font-awsome {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.font-awsome li {
+    margin: 0 15px;
+    position: relative;
+
+}
+
+.icon-box {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    color: #666;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 63px;
+    text-align: center;
+    transition: 1s;
+}
+
+.icon-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.font-awsome li:nth-child(2) a::after {
+    background-image: linear-gradient(to right top, #f0ae17, #ef960c, #ec7d0d, #e66315, #df461e, #df352e, #dd203b, #d90048, #da0060, #d60079, #cb0094, rgb(183, 4, 175));
+}
+.font-awsome li:nth-child(1) a::after {
+    background-image: linear-gradient(to right top, #1773ea, #1972e6, #1a72e2, #1c71de, #1e70da, #1e6ed5, #1f6cd1, #1f6acc, #1d66c5, #1b62be, #1a5fb8, #185bb1);
+}
+.font-awsome li:nth-child(3) a::after {
+    background-image: linear-gradient(to right top, #1c9be9, #1c98e4, #1b94de, #1b91d9, #1b8ed4, #198cd2, #188acf, #1688cd, #1286cd, #0e85cd, #0a83cd, #0681cd);
+}
+.font-awsome li:nth-child(4) a::after {
+    background-image: linear-gradient(to right top, #42e35f, #3bda57, #34d14f, #2dc948, #25c040, #25bb3f, #24b73e, #24b23d, #2bb042, #31ae47, #36ac4b, #3baa4f);
+}
+
+
+
+.font-awsome li:nth-child(2) a:hover::after {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #df003b;
+}
+.font-awsome li:nth-child(2) a:hover {
+    background-image: linear-gradient(to right top, #f0ae17, #ef960c, #ec7d0d, #e66315, #df461e, #df352e, #dd203b, #d90048, #da0060, #d60079, #cb0094, rgb(183, 4, 175));
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 3px #fff;
+}
+
+.font-awsome li:nth-child(1) a:hover::after {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #1773EA;
+}
+.font-awsome li:nth-child(1) a:hover {
+    background: #1772ea57;
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 2px #fff;
+}
+.font-awsome li:nth-child(3) a:hover::after {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #fff;
+}
+.font-awsome li:nth-child(3) a:hover {
+    background: #1772ea57;
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 2px #fff;
+}
+
+.font-awsome li:nth-child(4) a:hover::after {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #fff;
+}
+.font-awsome li:nth-child(4) a:hover {
+    background: rgba(41, 161, 25, 0.418);
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 2px #fff;
+}
+
